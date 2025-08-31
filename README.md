@@ -29,4 +29,23 @@ Powered by OpenAI + Spotify API, it suggests songs, makes playlists, and plays t
 git clone https://github.com/your-username/AI-DJ-Assistant.git
 cd AI-DJ-Assistant
 
+## Create a virtual environment (recommended)
+python -m venv .venv
+source .venv/bin/activate   # Mac/Linux
+.venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+Get API Keys
+
+OpenAI API Key → from OpenAI Dashboard
+
+Spotify API Keys → from Spotify Developer Dashboard
+
+##Requirements
+
+A valid Spotify Premium account (for playback control)
+
+Active Spotify app (PC / phone / web player logged in)
+
+Python 3.9+
 
